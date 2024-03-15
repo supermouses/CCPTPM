@@ -7,14 +7,11 @@
 </head>
 <body>
 <div class="login-container">
-    <h1>Đăng Nhập</h1>
+    <h1>login</h1>
     <form action="result.php" method="post">
-        <label for="username">Tên đăng nhập</p>:</label>
+        <label for="username">Username:</label>
         <input type="text" id="username" name="username" required>
-        <label for="password">Mật Khẩu:</label>
-        <input type="password" id="password" name="txtpassword" required>
-        <button type="submit">Đăng Nhập</button>
-    </form>
+        </form>
 </div>
 </body>
 </html>
