@@ -11,9 +11,10 @@
     <form action="result.php" method="post">
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" required>
-        <label for="txtmatkhau">Mật Khẩu:</label>
-        <input type="password" id="password" name="txtmatkhau" required>
-        </form>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="txtpassword" required>
+        <button type="submit">Login</button>
+    </form>
 </div>
 </body>
 </html>
